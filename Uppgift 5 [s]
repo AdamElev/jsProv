@@ -1,0 +1,21 @@
+Hallå, jag insåg att jag ej lämnade in fil 5, den finns här.
+Hursomhälst så är den sent inlämnad, så jag förventar mig att du räknar uppgiften som misslyckad.
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Form</title>
+</head>
+<body>
+	<form>
+		<input type="text" id="inputField">
+		<button type="button" onclick="txt2cons()">CLICK</button>
+	</form>
+	<script>
+		function txt2cons() {
+			const input = document.getElementById("inputField").value;
+			console.log(input);
+		}
+	</script>
+</body>
+</html>
